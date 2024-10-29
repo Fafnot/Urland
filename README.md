@@ -6,8 +6,12 @@
   <a href="https://t.me/Trash_sweetyyy">Telegram</a>
 </h4>
 
-# image program
+# ?PREVIEW
 ![Image](for_README_file/image/registor_window.png)
+![Image](for_README_file/image/registor_user_window.png)
+![Image](for_README_file/image/registor_admin_window.png)
+![Image](for_README_file/image/next_comand_window.png)
+
 
 
 

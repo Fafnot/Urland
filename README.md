@@ -1,4 +1,4 @@
-<h1 align="center">Changin Program</h1>
+<h1 align="center">Choose Program</h1>
 
 <h4 align="center">
   <a href="https://discord.com/invite/SFcSqZatPa" target="_blank">Discord</a>

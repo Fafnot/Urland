@@ -8,7 +8,8 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<h2 align="center">Ёто приложение больше всего под WINDOWS<sub><b>by nonnsweety</b></sub></h2>
+<p align="center">Ёто приложение больше всего под WINDOWS. ѕриложение —делано под мен€ она легко кастомизируетс€ под любого человека. <sub><b>by nonnsweety</b></sub>
+</p>
 
 
 ## :star2: Preview

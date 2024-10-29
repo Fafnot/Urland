@@ -7,7 +7,7 @@
 </h4>
 
 # image program
-[!image](for_README_file/image/registor_window.png)
+![Image](for_README_file/image/registor_window.png)
 
 
 

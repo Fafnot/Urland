@@ -2,13 +2,13 @@
 
 <h4 align="center">
   <a href="https://discord.com/invite/SFcSqZatPa" target="_blank">Discord</a>
-  .
+  ·
   <a href="https://t.me/Trash_sweetyyy" target="_blank">Telegram</a>
-  .
+  ·
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<h2 align="center">Это приложение больше всего под WINDOWS <sub?>by Arman</sub></h2>
+<h2 align="center">Это приложение больше всего под WINDOWS <sub>by nonnsweety</sub></h2>
 
 ## Preview
 

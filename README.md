@@ -1,9 +1,9 @@
 <h1 align="center">Hello I'am Arman</h1>
 
 <h4 align="center">
-  <a href="https://discord.com/invite/SFcSqZatPa">Discord</a>
+  <a href="https://discord.com/invite/SFcSqZatPa" target="_blank">Discord</a>
   .
-  <a href="https://t.me/Trash_sweetyyy">Telegram</a>
+  <a href="https://t.me/Trash_sweetyyy" target="_blank">Telegram</a>
 </h4>
 
 <h2 align="center">Это приложение больше всего под WINDOWS</h2>

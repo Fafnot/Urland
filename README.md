@@ -10,14 +10,14 @@
 
 <h2 align="center">Это приложение больше всего под WINDOWS <sub>by nonnsweety</sub></h2>
 
-## Preview
+## :star2:Preview
 
 ![Image](for_README_file/image/registor_window.png)
 ![Image](for_README_file/image/registor_user_window.png)
 ![Image](for_README_file/image/registor_admin_window.png)
 ![Image](for_README_file/image/next_comand_window.png)
 
-## What it is?
+## :star2:What it is?
 - Это приложение для того что бы запуск приложение было по удобнее не знаю как кому но это больше для меня сделано 
 - 
 

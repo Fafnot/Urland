@@ -1,9 +1,13 @@
 <h1 align="center">Hello I'am Arman</h1>
 
-
+<h4 aling="center">
+  <a href="https://discord.com/invite/SFcSqZatPa">Discord</a>
+  .
+  <a href="https://t.me/Trash_sweetyyy">Telegram</a>
+</h4>
 
 # image program
-<img src="for_README_file/image/next_comand_window.png" alt="image" >
+[!image](for_README_file/image/registor_window.png)
 
 
 

@@ -23,9 +23,9 @@ echo	                  ╠═════ 24: all program pc
 echo                 ══╬
 echo	                  ╠═════ 25: Clear time file
 echo                 ══╬
-echo	                  ╠═════ 26: 
+echo	                  ╠═════ 26: Download DirectX
 echo                 ══╬
-echo	                  ╠═════ 27:
+echo	                  ╠═════ 27: Download all update Cpp
 echo                 ══╬
 echo	                  ╠══════ 28:
 echo                 ══╬
@@ -63,9 +63,9 @@ if /I %input% EQU 25 (
 	start %temp%
 )
 
-if /I %input% EQU 26 start 
+if /I %input% EQU 26 start .DXSETUP.exe
 
-if /I %input% EQU 27 start 
+if /I %input% EQU 27 start VisualCppRedist_AIO_x86_x64.exe 
 
 if /I %input% EQU 28 start 
 

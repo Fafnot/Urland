@@ -15,22 +15,22 @@ call :banner
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A 
 echo                   ╠═══ 1: Blender                                                Rust Desk :11 ═══╬
 echo            info ══╬                                                                               ╬══ code
-echo	                  ╠════ 2: pycharm                                              RadminVPN :12 ════╣
+echo	                  ╠════ 2: pycharm                                                        :12 ════╣
 echo            game ══╬                                                                               ╬══ cmd  
 echo	                  ╠═════ 3: VirtualBox                                                   :13 ═════╣
 echo         massege ══╬                                                                               ╬══
 echo	                  ╠═════ 4: Photoshop                                                    :14 ═════╣
 echo            soft ══╬                                                                               ╬══
 echo	                  ╠═════ 5: VS_code                                                      :15 ═════╣
-echo            nvim ══╬                                                                               ╬══
+echo             cmd ══╬                                                                               ╬══
 echo	                  ╠═════ 6: Obsidian                                                     :16 ═════╣
 echo           store ══╬                                                                               ╬══
-echo	                  ╠═════ 7: Wox                                                          :17 ═════╣
+echo	                  ╠═════ 7: RadminVPN                                                    :17 ═════╣
 echo       FileZilla ══╬                                                                               ╬══
 echo	                  ╠══════ 8: BoosterX                                                   :18 ══════╣
 echo          basket ══╬                                                                               ╬══
 echo	                  ╠══════ 9: KeePassXC                                                  :19 ══════╣
-echo             OBS ══╬                                                                               ╬══ next
+echo             git ══╬                                                                               ╬══ next
 echo	                  ╠══════ 10: SublimeText                                               :20 ══════╣
 echo                   ╬                                                                               ╬                                                                                                                       
 set /p input=.%BS%                 ╚══════════════════════════^>
@@ -73,8 +73,6 @@ if /I %input% EQU filezilla start FileZillaClient.lnk
 
 if /I %input% EQU store start store_html.html
 
-if /I %input% EQU nvim start Neovim.lnk
-
 if /I %input% EQU info_game start info_game.txt
 
 if /I %input% EQU soft start soft_index.html
@@ -82,8 +80,6 @@ if /I %input% EQU soft start soft_index.html
 if /I %input% EQU next start next.bat
 
 if /I %input% EQU info start info_main_file.txt 
-
-if /I %input% EQU obs start OBS.lnk
 
 if /I %input% EQU 1 start blender.lnk
 
@@ -97,7 +93,7 @@ if /I %input% EQU 5 start VS_code.lnk
 
 if /I %input% EQU 6 start Obsidian.lnk 
 
-if /I %input% EQU 7 start Wox.lnk
+if /I %input% EQU 7 start RadminVPN.lnk
 
 if /I %input% EQU 8 start BoosterX.exe 
 
@@ -107,9 +103,9 @@ if /I %input% EQU 10 start SublimeText.lnk
 
 if /I %input% EQU 11 start RustDesk.lnk
 
-if /I %input% EQU 12 start RadminVPN.lnk
+if /I %input% EQU 12 start 
 
-if /I %input% EQU 13 start Wox.lnk
+if /I %input% EQU 13 start 
 
 
 

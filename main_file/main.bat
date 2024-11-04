@@ -15,7 +15,7 @@ call :banner
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A 
 echo                   ╠═══ 1: Blender                                                Rust Desk :11 ═══╬
 echo            info ══╬                                                                               ╬══ code
-echo	                  ╠════ 2: pycharm                                            Performance :12 ════╣
+echo	                  ╠════ 2: pycharm                                             System app :12 ════╣
 echo            game ══╬                                                                               ╬══ 
 echo	                  ╠═════ 3: VirtualBox                                                   :13 ═════╣
 echo         massege ══╬                                                                               ╬══
@@ -103,7 +103,7 @@ if /I %input% EQU 10 start SublimeText.lnk
 
 if /I %input% EQU 11 start RustDesk.lnk
 
-if /I %input% EQU 12 start Performance.lnk
+if /I %input% EQU 12 start start_Folder.vbs
 
 if /I %input% EQU 13 start 
 

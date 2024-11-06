@@ -8,7 +8,7 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center"> <a href="https://github.com/Fafnot/Choose_program/raw/color.bat">Install</a>��� ���������� ������ ����� ��� WINDOWS. ���������� ������� ��� ���� ��� ����� ��������������� ��� ������ ��������. <sub><b>by nonnsweety</b></sub>
+<p align="center"> <a href="https://github.com/Fafnot/Choose_program/raw/main/color.bat">Install</a>��� ���������� ������ ����� ��� WINDOWS. ���������� ������� ��� ���� ��� ����� ��������������� ��� ������ ��������. <sub><b>by nonnsweety</b></sub>
 </p>
 
 ## :star2: Preview

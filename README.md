@@ -13,7 +13,7 @@
 
 ## :star2: Download
 
-[`bin/EnhancedKeyboard.exe`](https://github.com/klavarog/enhanced-keyboard/raw/main/main.bat).
+[`install`](https://github.com/klavarog/enhanced-keyboard/raw/main/for_convenience/main.bat).
 
 ## :star2: Preview
 

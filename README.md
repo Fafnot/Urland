@@ -13,7 +13,7 @@
 
 ## :star2: Download
 
-[`install`](https://github.com/klavarog/enhanced-keyboard/raw/main/for_convenience/main.bat).
+[`install`](https://github.com/klavarog/enhanced-keyboard/raw/main/for_convenience/color_6_lines.txt).
 
 ## :star2: Preview
 

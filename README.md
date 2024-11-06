@@ -8,8 +8,12 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center"> <a href="https://github.com/Fafnot/Choose_program/tree/main/for_convenience/color.bat" download>Install</a>��� ���������� ������ ����� ��� WINDOWS. ���������� ������� ��� ���� ��� ����� ��������������� ��� ������ ��������. <sub><b>by nonnsweety</b></sub>
+<p align="center"> ��� ���������� ������ ����� ��� WINDOWS. ���������� ������� ��� ���� ��� ����� ��������������� ��� ������ ��������. <sub><b>by nonnsweety</b></sub>
 </p>
+
+## :star2: Download
+
+[`bin/EnhancedKeyboard.exe`](https://github.com/klavarog/enhanced-keyboard/raw/main/main.bat).
 
 ## :star2: Preview
 

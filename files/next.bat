@@ -25,7 +25,7 @@ echo	                  ╠═════ 25: Clear time file
 echo                 ══╬
 echo	                  ╠═════ 26: Download all update Cpp
 echo                 ══╬
-echo	                  ╠═════ 27: 
+echo	                  ╠═════ 27: Update DriteX
 echo                 ══╬
 echo	                  ╠══════ 28:
 echo                 ══╬
@@ -65,7 +65,7 @@ if /I %input% EQU 25 (
 
 if /I %input% EQU 26 start VisualCppRedist_AIO_x86_x64.exe 
 
-if /I %input% EQU 27 start 
+if /I %input% EQU 27 start .DXSETUP.exe 
 
 if /I %input% EQU 28 start 
 

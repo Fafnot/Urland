@@ -8,12 +8,14 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center"> ��� ���������� ������ ����� ��� WINDOWS. ���������� ������� ��� ���� ��� ����� ��������������� ��� ������ ��������. <sub><b>by nonnsweety</b></sub>
+<p align="center">  <sub><b>by nonnsweety</b></sub>
 </p>
 
 ## :star2: Download
 
-[`install`](https://github.com/Fafnot/Choose_program/raw/main/ChooseProgram.exe).
+[`install`](https://drive.google.com/drive/folders/1vbU0h7CbrRDMLKzBMWbmx3R3DhBCFP02?usp=sharing).
+
+[`install_2`](https://drive.google.com/drive/folders/1RiKn96WFyra0HxSQo793ZwQx1iMovGqR?usp=sharing)
 
 ## :star2: Preview
 
@@ -24,19 +26,6 @@
 
 ## :star2: What it is?
 
-- ��� ���������� ��� ���� ��� �� ������ ���������� ���� �� ������� �� ���� ��� ���� �� ��� ������ ��� ���� �������
-- ��� ���� ������� ������� ������ ������� ���������� ��� ������������� � �� ������
-- ��� ����� ������� ��� ����
-
 ## :star2: Other
 
-- ���� registor.py �� ����������� �� ��� ���� PyQt6 � �������� ����� ����� PySide6 � �� ���� ��� �� ���� ��� � �� �����������
-- ���� � ��� ������ ���������� ��� ������ ���� �������� �� ��� ������ � files � ��� ����� � main.bat �������� ������� ���� ��� ���� ����������
-- � ����� ���� �� ������ ������ �������� ��� ��� �������� ��� � ��� ����� �� ��� ��������
-- ����� ����� ������� ��� �� � ����� �� ��� �� ������ ����� ��� ��� �� ����������
-
 ## :star2: on future
-
-- �������� ������� ��� ���������� �� ������
-- ������� ������� ������ �������
-- ���������� ������� ��� Linux

@@ -2,13 +2,13 @@
 
 <h4 align="center">
   <a href="https://discord.com/invite/SFcSqZatPa" target="_blank">Discord</a>
-  �
+  ·
   <a href="https://t.me/Trash_sweetyyy" target="_blank">Telegram</a>
-  �
+  ·
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center">  <sub><b>by nonnsweety</b></sub>
+<p align="center"> Здраствуйте, это прога больше всего под windows. Это програма запускает другие програмы  <sub><b>by nonnsweety</b></sub>
 </p>
 
 ## :star2: Download

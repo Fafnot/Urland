@@ -1,5 +1,5 @@
 @echo off
-title windows 
+title next
 chcp 65001 >nul
 cd next 
 color 5

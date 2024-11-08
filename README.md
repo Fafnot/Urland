@@ -13,9 +13,9 @@
 
 ## :star2: Download
 
-[`install`](https://drive.google.com/drive/folders/1APKamw7I_89NcIagO85N0Cypf_EGtRNm?usp=sharing)
+[`install`](https://drive.google.com/drive/folders/1Yy7NsNSZDc2wUg1o7k_FLvcySdqrSxmY?usp=sharing)
 
-[`install_2`](https://drive.google.com/drive/folders/1fL2ku5VHBrUa0KAjFQ2Juj-rjvkAQZve?usp=sharing)
+[`install_2`](https://drive.google.com/drive/folders/1IZgSWL71ES38IUukww-4Jr5wQKf3R4kJ?usp=sharing)
 
 ## :star2: Preview
 

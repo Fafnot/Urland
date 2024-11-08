@@ -53,7 +53,7 @@ if /I %input% EQU code (
 )
 
 
-
+if /I %input% EQU git start Git.lnk
 
 if /I %input% EQU info_next start info_next.txt 
 

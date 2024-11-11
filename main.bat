@@ -1,8 +1,12 @@
 @echo off
 title main file
 chcp 65001 >nul
-cd files
+
+set "SCRIPT_DIR=%~dp0"
+cd /d "%SCRIPT_DIR%files"
+
 color 5
+
 
 
 
@@ -77,7 +81,13 @@ if /I %input% EQU info_game start info_game.txt
 
 if /I %input% EQU soft start soft_index.html
 
-if /I %input% EQU next start next.bat
+
+if /I "%input%" EQU "next" (
+    cd /d "%SCRIPT_DIR%"
+    call next.bat
+)
+if /I "%input%" EQU "exit" exit
+
 
 if /I %input% EQU info start info_main_file.txt 
 
@@ -110,10 +120,10 @@ if /I %input% EQU 13 start
 
 
 
-cls
+
 goto start 
 echo. 
-pause
+
 
 
 

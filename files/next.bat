@@ -1,7 +1,9 @@
 @echo off
 title next
 chcp 65001 >nul
-cd next 
+
+cd /d "%~dp0files"
+
 color 5
 
 
@@ -15,7 +17,7 @@ for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A
 echo.
 echo.
 echo                   ╠═══ 21: AdministrativeTools
-echo            back ══╬
+echo                 ══╬
 echo	                  ╠════ 22: MdSched
 echo                 ══╬
 echo	                  ╠═════ 23: startup

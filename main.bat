@@ -120,9 +120,10 @@ if /I %input% EQU 13 start
 
 
 
-
+cls
 goto start 
 echo. 
+pause
 
 
 

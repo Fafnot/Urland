@@ -84,9 +84,10 @@ if /I %input% EQU 30 start
 
 
 
-
+cls
 goto start 
 echo. 
+pause
 
 
 

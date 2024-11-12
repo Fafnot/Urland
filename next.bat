@@ -1,7 +1,9 @@
 @echo off
 title next
 chcp 65001 >nul
-cd next 
+
+cd /d "%~dp0files"
+
 color 5
 
 

@@ -1,6 +1,7 @@
 @echo off
 title main file
 chcp 866 > nul
+mode con cols=120 lines=60
 cd next  
 
 
@@ -9,7 +10,7 @@ set "SCRIPT_DIR=%~dp0"
 
 
 
-
+rem ํโฎ ญ คฎ ขฅแโจ ข PowerShell windows คฎซฆญ  ก๋โ์ ญฎขฅฅ 10 จซจ 10 reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
 
 
 
@@ -21,27 +22,25 @@ call :banner
 
 :menu 
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A 
-echo                   ฬอออ 1: Blender                                                Rust Desk :11 อออฮ
-echo            info ออฮ                                                                               ฮออ code
-echo	                  ฬออออ 2: pycharm                                             System app :12 ออออน
-echo            game ออฮ                                                                               ฮออ 
-echo	                  ฬอออออ 3: VirtualBox                                                   :13 อออออน
-echo         massege ออฮ                                                                               ฮออ
-echo	                  ฬอออออ 4: Photoshop                                                    :14 อออออน
-echo            soft ออฮ                                                                               ฮออ
-echo	                  ฬอออออ 5: VS_code                                                      :15 อออออน
-echo             cmd ออฮ                                                                               ฮออ
-echo	                  ฬอออออ 6: Obsidian                                                     :16 อออออน
-echo           store ออฮ                                                                               ฮออ
-echo	                  ฬอออออ 7: RadminVPN                                                    :17 อออออน
-echo       FileZilla ออฮ                                                                               ฮออ
-echo	                  ฬออออออ 8: BoosterX                                                   :18 ออออออน
-echo          basket ออฮ                                                                               ฮออ
-echo	                  ฬออออออ 9: KeePassXC                                                  :19 ออออออน
-echo             git ออฮ                                                                               ฮออ next
-echo	                  ฬออออออ 10: SublimeText                                               :20 ออออออน
-echo                   ;                                                                               ฮ                                                                                                                       
-set /p input=.%BS%                 ศออออออออออออออออออออออออออ^>
+
+
+echo                                                     [38;2;255;255;0mversion v 0.1.0.0
+echo        [38;2;0;0;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+echo          [1]: blender         [2]: PyCharm        [3]: VirtualBox       [4]: Photoshop       [5]: VS_code        
+echo.    
+echo          [6]: Obsidian        [7]: RadminVPN      [8]: BoosterX         [9]: KeePassXC       [10]: SublimeText 
+echo.    
+echo          [11]: RustDesk       [12]: system app
+echo        ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+echo.
+echo                                                         [38;2;255;255;0mOther
+echo        ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+echo                  pc off                     for pc                                               develops
+echo           [shutdown] [reboot]     [pc] [store] [soft] [basket]    [massege]    [game]       [git] [code] [cmd]
+echo        ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+echo                                                                                                                 next 
+                                                                                                                                
+set /p input=.%BS%      [38;2;255;0;0m^>
 
 
 
@@ -137,16 +136,19 @@ pause
 
 
 :banner
-echo. 
+echo   [38;2;128;0;128m  
+echo                ษฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤป
+echo                ณ                                                                                   ณ
+echo                ณ      ÛÛป   ÛÛป    ÛÛÛÛÛÛป     ÛÛป          ÛÛÛÛÛป     ÛÛÛป   ÛÛป    ÛÛÛÛÛÛป       ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛป    ÛÛÛÛป  ÛÛบ    ÛÛษออÛÛป      ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛÛÛÛÛษผ    ÛÛบ         ÛÛÛÛÛÛÛบ    ÛÛษÛÛป ÛÛบ    ÛÛบ  ÛÛบ      ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛบ    ÛÛบศÛÛปÛÛบ    ÛÛบ  ÛÛบ      ณ
+echo                ณ      ศÛÛÛÛÛÛษผ    ÛÛบ  ÛÛบ    ÛÛÛÛÛÛÛป    ÛÛบ  ÛÛบ    ÛÛบ ศÛÛÛÛบ    ÛÛÛÛÛÛษผ      ณ
+echo                ณ       ศอออออผ     ศอผ  ศอผ    ศออออออผ    ศอผ  ศอผ    ศอผ  ศอออผ    ศอออออผ       ณ
+echo                ณ                                                                                   ณ
+echo                ศฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤผ
 echo.
-echo           [38;2;128;0;128mÛÛÛป   ÛÛป ÛÛÛÛÛÛป ÛÛÛป   ÛÛปÛÛÛป   ÛÛปÛÛÛÛÛÛÛปÛÛป    ÛÛปÛÛÛÛÛÛÛปÛÛÛÛÛÛÛปÛÛÛÛÛÛÛÛปÛÛป   ÛÛป
-echo           [38;2;153;51;204mÛÛÛÛป  ÛÛบÛÛษอออÛÛปÛÛÛÛป  ÛÛบÛÛÛÛป  ÛÛบÛÛษออออผÛÛบ    ÛÛบÛÛษออออผÛÛษออออผศออÛÛษออผศÛÛป ÛÛษผ
-echo           [38;2;178;102;255mÛÛษÛÛป ÛÛบÛÛบ   ÛÛบÛÛษÛÛป ÛÛบÛÛษÛÛป ÛÛบÛÛÛÛÛÛÛปÛÛบ Ûป ÛÛบÛÛÛÛÛป  ÛÛÛÛÛป     ÛÛบ    ศÛÛÛÛษผ 
-echo           [38;2;204;0;204mÛÛบศÛÛปÛÛบÛÛบ   ÛÛบÛÛบศÛÛปÛÛบÛÛบศÛÛปÛÛบศออออÛÛบÛÛบÛÛÛปÛÛบÛÛษออผ  ÛÛษออผ     ÛÛบ     ศÛÛษผ
-echo           [38;2;229;51;255mÛÛบ ศÛÛÛÛบศÛÛÛÛÛÛษผÛÛบ ศÛÛÛÛบÛÛบ ศÛÛÛÛบÛÛÛÛÛÛÛบศÛÛÛษÛÛÛษผÛÛÛÛÛÛÛปÛÛÛÛÛÛÛป   ÛÛบ      ÛÛบ     
-echo           [38;2;255;102;255mศอผ  ศอออผ ศอออออผ ศอผ  ศอออผศอผ  ศอออผศออออออผ ศออผศออผ ศออออออผศออออออผ   ศอผ      ศอผ     
-echo.
-echo.
+
 
 
 

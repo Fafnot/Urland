@@ -10,7 +10,7 @@ set "SCRIPT_DIR=%~dp0"
 
 
 
-rem ํโฎ ญ คฎ ขฅแโจ ข PowerShell windows คฎซฆญ  ก๋โ์ ญฎขฅฅ 10 จซจ 10 reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
+
 
 
 
@@ -26,18 +26,16 @@ for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A
 
 echo                                                     [38;2;255;255;0mversion v 0.1.0.0
 echo        [38;2;0;0;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
-echo          [1]: blender         [2]: PyCharm        [3]: VirtualBox       [4]: Photoshop       [5]: VS_code        
-echo.    
-echo          [6]: Obsidian        [7]: RadminVPN      [8]: BoosterX         [9]: KeePassXC       [10]: SublimeText 
-echo.    
-echo          [11]: RustDesk       [12]: system app
-echo        ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+echo          [38;5;63m[1]-[92mblender[92m         [38;5;63m[2]-[92mPyCharm[92m        [38;5;63m[3]-[92mVirtualBox[92m       [38;5;63m[4]-[92mPhotoshop[92m       [38;5;63m[5]-[92mVS_code[92m            
+echo          [38;5;63m[6]-[92mObsidian[92m        [38;5;63m[7]-[92mRadminVPN[92m      [38;5;63m[8]-[92mBoosterX[92m         [38;5;63m[9]-[92mKeePassXC[92m       [38;5;63m[10]-[92mSublimeText[92m     
+echo          [38;5;63m[11]-[92mRustDesk[92m       [38;5;63m[12]-[92msystem app[92m
+echo        [38;2;0;0;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 echo.
 echo                                                         [38;2;255;255;0mOther
-echo        ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
-echo                  pc off                     for pc                                               develops
-echo           [shutdown] [reboot]     [pc] [store] [soft] [basket]    [massege]    [game]       [git] [code] [cmd]
-echo        ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+echo        [38;2;0;191;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+echo                 pc off                     for pc                                               develops
+echo         [38;2;255;0;0m[shutdown] [reboot]     [38;2;0;191;255m[pc] [store] [soft] [basket]    [massege]    [game]       [38;2;255;255;0m[git] [code] [cmd]
+echo        [38;2;0;191;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 echo                                                                                                                 next 
                                                                                                                                 
 set /p input=.%BS%      [38;2;255;0;0m^>

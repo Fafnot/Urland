@@ -15,29 +15,14 @@ call :banner
 
 :menu 
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A 
-echo.
-echo.
-echo                   ฬอออ 21: AdministrativeTools
-echo            back ออฮ
-echo	                  ฬออออ 22: MdSched
-echo                 ออฮ
-echo	                  ฬอออออ 23: startup
-echo                 ออฮ
-echo	                  ฬอออออ 24: all program pc
-echo                 ออฮ
-echo	                  ฬอออออ 25: Clear time file
-echo                 ออฮ
-echo	                  ฬอออออ 26: Download all update Cpp
-echo                 ออฮ
-echo	                  ฬอออออ 27: Update DriteX
-echo                 ออฮ
-echo	                  ฬออออออ 28:
-echo                 ออฮ
-echo	                  ฬออออออ 29:  
-echo                 ออฮ
-echo	                  ฬออออออ 30: 
-echo                      ฮ
-set /p input=.%BS%                    ศออออออออออออออออออออออออออ^>
+
+echo       [38;2;255;255;0mback                                   [38;2;255;255;0mversion v 0.1.0.0
+echo    [38;2;0;0;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+echo     [38;5;63m[1] - [92mAdministrativeTools[92m   [38;5;63m[2] -  [92mMdSched[92m                      [38;5;63m[3] - [92mstartup[92m       [38;5;63m[4] - [92mall program pc[92m                   
+echo     [38;5;63m[5] - [92mClear time file[92m       [38;5;63m[6] - [92mDownload all update Cpp[92m   [38;5;63m[7] - [92mUpdate DriteX[92m         
+echo    [38;2;0;0;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+set /p input=.%BS%     [38;2;255;0;0m^>
 
 
 if /I %input% EQU 4 start shutdown -s -t 14400 /c "4 hours shutdown pc : nonnsweety"
@@ -84,7 +69,7 @@ if /I %input% EQU 30 start
 
 
 
-cls
+cls 
 goto start 
 echo. 
 pause
@@ -94,14 +79,18 @@ pause
 
 
 :banner
-echo. 
 echo.
-echo           [38;2;128;0;128mÛÛÛป   ÛÛป ÛÛÛÛÛÛป  ÛÛÛÛÛÛป ÛÛÛป   ÛÛปÛÛÛป   ÛÛปÛÛÛÛÛÛÛปÛÛป    ÛÛปÛÛÛÛÛÛÛปÛÛÛÛÛÛÛปÛÛÛÛÛÛÛÛปÛÛป   ÛÛป
-echo           [38;2;153;51;204mÛÛÛÛป  ÛÛบÛÛษอออÛÛปÛÛษอออÛÛปÛÛÛÛป  ÛÛบÛÛÛÛป  ÛÛบÛÛษออออผÛÛบ    ÛÛบÛÛษออออผÛÛษออออผศออÛÛษออผศÛÛป ÛÛษผ
-echo           [38;2;178;102;255mÛÛษÛÛป ÛÛบÛÛบ   ÛÛบÛÛบ   ÛÛบÛÛษÛÛป ÛÛบÛÛษÛÛป ÛÛบÛÛÛÛÛÛÛปÛÛบ Ûป ÛÛบÛÛÛÛÛป  ÛÛÛÛÛป     ÛÛบ    ศÛÛÛÛษผ 
-echo           [38;2;204;0;204mÛÛบศÛÛปÛÛบÛÛบ   ÛÛบÛÛบ   ÛÛบÛÛบศÛÛปÛÛบÛÛบศÛÛปÛÛบศออออÛÛบÛÛบÛÛÛปÛÛบÛÛษออผ  ÛÛษออผ     ÛÛบ     ศÛÛษผ  
-echo           [38;2;229;51;255mÛÛบ ศÛÛÛÛบศÛÛÛÛÛÛษผศÛÛÛÛÛÛษผÛÛบ ศÛÛÛÛบÛÛบ ศÛÛÛÛบÛÛÛÛÛÛÛบศÛÛÛษÛÛÛษผÛÛÛÛÛÛÛปÛÛÛÛÛÛÛป   ÛÛบ      ÛÛบ   
-echo           [38;2;255;102;255mศอผ  ศอออผ ศอออออผ  ศอออออผ ศอผ  ศอออผศอผ  ศอออผศออออออผ ศออผศออผ ศออออออผศออออออผ   ศอผ      ศอผ   
+echo   [38;2;128;0;128m
+echo                ษฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤป
+echo                ณ                                                                                   ณ
+echo                ณ      ÛÛป   ÛÛป    ÛÛÛÛÛÛป     ÛÛป          ÛÛÛÛÛป     ÛÛÛป   ÛÛป    ÛÛÛÛÛÛป       ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛป    ÛÛÛÛป  ÛÛบ    ÛÛษออÛÛป      ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛÛÛÛÛษผ    ÛÛบ         ÛÛÛÛÛÛÛบ    ÛÛษÛÛป ÛÛบ    ÛÛบ  ÛÛบ      ณ
+echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛบ    ÛÛบศÛÛปÛÛบ    ÛÛบ  ÛÛบ      ณ
+echo                ณ      ศÛÛÛÛÛÛษผ    ÛÛบ  ÛÛบ    ÛÛÛÛÛÛÛป    ÛÛบ  ÛÛบ    ÛÛบ ศÛÛÛÛบ    ÛÛÛÛÛÛษผ      ณ
+echo                ณ       ศอออออผ     ศอผ  ศอผ    ศออออออผ    ศอผ  ศอผ    ศอผ  ศอออผ    ศอออออผ       ณ
+echo                ณ                                                                                   ณ
+echo                ศฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤผ
 echo.
 echo.
 

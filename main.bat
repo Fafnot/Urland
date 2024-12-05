@@ -5,24 +5,22 @@ mode con cols=120 lines=60
 cd next  
 
 
-set "SCRIPT_DIR=%~dp0"
-
-
-
-
-
-
-
-
-
-:start
-call :banner
 
 
 
 :menu 
-for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem "') do set BS=%%A 
-
+echo   [38;2;128;0;128m  
+echo                ÉÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ»
+echo                ³                                                                                   ³
+echo                ³      ÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»     ÛÛ»          ÛÛÛÛÛ»     ÛÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»       ³
+echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛ»    ÛÛÛÛ»  ÛÛº    ÛÛÉÍÍÛÛ»      ³
+echo                ³      ÛÛº   ÛÛº    ÛÛÛÛÛÛÉ¼    ÛÛº         ÛÛÛÛÛÛÛº    ÛÛÉÛÛ» ÛÛº    ÛÛº  ÛÛº      ³
+echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛº    ÛÛºÈÛÛ»ÛÛº    ÛÛº  ÛÛº      ³
+echo                ³      ÈÛÛÛÛÛÛÉ¼    ÛÛº  ÛÛº    ÛÛÛÛÛÛÛ»    ÛÛº  ÛÛº    ÛÛº ÈÛÛÛÛº    ÛÛÛÛÛÛÉ¼      ³
+echo                ³       ÈÍÍÍÍÍ¼     ÈÍ¼  ÈÍ¼    ÈÍÍÍÍÍÍ¼    ÈÍ¼  ÈÍ¼    ÈÍ¼  ÈÍÍÍ¼    ÈÍÍÍÍÍ¼       ³
+echo                ³                                                                                   ³
+echo                ÈÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¼
+echo.
 
 echo                                                     [38;2;255;255;0mversion v 0.1.0.0
 echo        [38;2;0;0;255mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
@@ -83,10 +81,7 @@ if /I %input% EQU info_game start info_game.txt
 if /I %input% EQU soft start soft_index.html
 
 
-if /I "%input%" EQU "next" (
-    cd /d "%SCRIPT_DIR%"
-    call "%SCRIPT_DIR%next.bat"
-)
+
 
 
 if /I %input% EQU info start info_main_file.txt 
@@ -121,31 +116,86 @@ if /I %input% EQU 13 start
 
 
 
+if /I %input% EQU next ( 
+	cls 
+	:next_window
+	echo.
+	echo   [38;2;128;0;128m
+	echo                ÉÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ»
+	echo                ³                                                                                   ³
+	echo                ³      ÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»     ÛÛ»          ÛÛÛÛÛ»     ÛÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»       ³
+	echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛ»    ÛÛÛÛ»  ÛÛº    ÛÛÉÍÍÛÛ»      ³
+	echo                ³      ÛÛº   ÛÛº    ÛÛÛÛÛÛÉ¼    ÛÛº         ÛÛÛÛÛÛÛº    ÛÛÉÛÛ» ÛÛº    ÛÛº  ÛÛº      ³
+	echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛº    ÛÛºÈÛÛ»ÛÛº    ÛÛº  ÛÛº      ³
+	echo                ³      ÈÛÛÛÛÛÛÉ¼    ÛÛº  ÛÛº    ÛÛÛÛÛÛÛ»    ÛÛº  ÛÛº    ÛÛº ÈÛÛÛÛº    ÛÛÛÛÛÛÉ¼      ³
+	echo                ³       ÈÍÍÍÍÍ¼     ÈÍ¼  ÈÍ¼    ÈÍÍÍÍÍÍ¼    ÈÍ¼  ÈÍ¼    ÈÍ¼  ÈÍÍÍ¼    ÈÍÍÍÍÍ¼       ³
+	echo                ³                                                                                   ³
+	echo                ÈÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¼
+	echo.
+	echo. 
+
+	echo       [38;2;255;255;0mback                                   [38;2;255;255;0mversion v 0.1.0.0
+	echo    [38;2;0;0;255mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+	echo     [38;2;255;255;0m[1] - AdministrativeTools   [2] -  MdSched                     [3] - startup       [4] - all program pc                  
+	echo     [38;2;255;255;0m[5] - Clear time file       [6] - Download all update Cpp      [7] - Update DriteX        
+	echo    [38;2;0;0;255mÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+	set /p input=.%BS%     [38;2;255;0;0m^>
+	
+
+
+	if /I %input% EQU 4 start shutdown -s -t 14400 /c "4 hours shutdown pc : nonnsweety"
+
+	if /I %input% EQU 6 start shutdown -s -t 21600 /c "6 hours shutdown pc : nonnsweety"			
+
+	if /I %input% EQU 8 start shutdown -s -t 28800 /c "8 hours shutdown pc : nonnsweety"	
+
+	if /I %input% EQU cancel start shutdown /a
 
 
 
-cls
-goto start 
-echo. 
-pause
+	if /I %input% EQU 21 start AdministrativeTools.lnk
+
+	if /I %input% EQU 22 start mdsched.lnk
+
+	if /I %input% EQU 23 start shell:startup
+
+	if /I %input% EQU 24 start shell:appsfolder
+
+	if /I %input% EQU 25 (
+		start temp 
+		start %temp%
+	)
+
+	if /I %input% EQU 26 start VisualCppRedist_AIO_x86_x64.exe 
+
+	if /I %input% EQU 27 start .DXSETUP.exe 
+
+	if /I %input% EQU 28 start 
+
+	if /I %input% EQU 29 start 
+
+	if /I %input% EQU 30 start 
+	
+	
+
+	if /I %input% EQU back (
+		cls 
+		goto :menu
+	)
+
+
+	cls 
+	goto :next_window
+)
 
 
 
 
+cls 
+goto :menu  
 
-:banner
-echo   [38;2;128;0;128m  
-echo                ÉÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ»
-echo                ³                                                                                   ³
-echo                ³      ÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»     ÛÛ»          ÛÛÛÛÛ»     ÛÛÛ»   ÛÛ»    ÛÛÛÛÛÛ»       ³
-echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛ»    ÛÛÛÛ»  ÛÛº    ÛÛÉÍÍÛÛ»      ³
-echo                ³      ÛÛº   ÛÛº    ÛÛÛÛÛÛÉ¼    ÛÛº         ÛÛÛÛÛÛÛº    ÛÛÉÛÛ» ÛÛº    ÛÛº  ÛÛº      ³
-echo                ³      ÛÛº   ÛÛº    ÛÛÉÍÍÛÛ»    ÛÛº         ÛÛÉÍÍÛÛº    ÛÛºÈÛÛ»ÛÛº    ÛÛº  ÛÛº      ³
-echo                ³      ÈÛÛÛÛÛÛÉ¼    ÛÛº  ÛÛº    ÛÛÛÛÛÛÛ»    ÛÛº  ÛÛº    ÛÛº ÈÛÛÛÛº    ÛÛÛÛÛÛÉ¼      ³
-echo                ³       ÈÍÍÍÍÍ¼     ÈÍ¼  ÈÍ¼    ÈÍÍÍÍÍÍ¼    ÈÍ¼  ÈÍ¼    ÈÍ¼  ÈÍÍÍ¼    ÈÍÍÍÍÍ¼       ³
-echo                ³                                                                                   ³
-echo                ÈÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¼
-echo.
+
 
 
 

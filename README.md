@@ -8,7 +8,7 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center"> Здраствуйте, это прога больше всего под windows. Это програма запускает другие програмы <sub><b>by nonnsweety</b></sub>
+<p align="center"> Програма ещё в бета тестировании  <sub><b>by nonnsweety</b></sub>
 </p>
 
 ## :star2: Download
@@ -22,18 +22,21 @@
 ![Image](for_README_file/image/registor_window.png)
 ![Image](for_README_file/image/registor_user_window.png)
 ![Image](for_README_file/image/registor_admin_window.png)
-![Image](for_README_file/image/next_comand_window.png)
+![Image](for_README_file/image/main.png)
+![Image](for_README_file/image/next.png)
 
 ## :star2: What it is?
 
-- Програма умет запускать любую програму на вашем комрьютере
-- Может вам скачать C++ пакеты для того что бы менше проблем было
-- Ещё может скачать DiretX
-- Есть проги для того что бы оптимизировать ПК
+- Через Ярлыки других программа моя может запускать их
+- Можно обновит DiretX и так же C++ всех годов
+- Прогрма так же может вам помоч отчистить мусор с компьютера
+- Есть проложение boosterX для оптимизации системы
 
 ## :star2: Other
 
-- Програму сейчас запускается без никаких пробелем до этого надо было скачать пакеты для дого что она просто запустилась
+- Когда вы перейдете в next то вам надо будет сперва написать cls 
+- что бы у вас был задни вон не черный а фото то вам надо будет скачать terminal от microsoft в настройках можно будет поставит любое фото 
+- У программы есть setup он сверху 
 - Если будут какие то проблемы то можете написать на Gmail: age2380@gmail.com
 
 ## :star2: on future

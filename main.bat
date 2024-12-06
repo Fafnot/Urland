@@ -117,7 +117,7 @@ if /I %input% EQU 13 start
 
 
 if /I %input% EQU next ( 
-	cls 
+	
 	:next_window
 	echo.
 	echo   [38;2;128;0;128m
@@ -140,7 +140,9 @@ if /I %input% EQU next (
 	echo     [38;2;255;255;0m[5] - Clear time file       [6] - Download all update Cpp      [7] - Update DriteX        
 	echo    [38;2;0;0;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 
-	set /p input=.%BS%     [38;2;255;0;0m^>
+	
+	set /p input=.%BS%     [38;2;255;0;0m^> 
+
 	
 
 
@@ -183,18 +185,14 @@ if /I %input% EQU next (
 		cls 
 		goto :menu
 	)
-
-
-	cls 
-	goto :next_window
+	
+	cls
+	goto :next_window 
 )
 
-
-
-
+  
 cls 
-goto :menu  
-
+goto :menu
 
 
 

@@ -9,17 +9,15 @@ cd next
 
 
 :menu 
-echo   [38;2;128;0;128m  
-echo                ษฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤป
-echo                ณ                                                                                   ณ
-echo                ณ      ÛÛป   ÛÛป    ÛÛÛÛÛÛป     ÛÛป          ÛÛÛÛÛป     ÛÛÛป   ÛÛป    ÛÛÛÛÛÛป       ณ
-echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛป    ÛÛÛÛป  ÛÛบ    ÛÛษออÛÛป      ณ
-echo                ณ      ÛÛบ   ÛÛบ    ÛÛÛÛÛÛษผ    ÛÛบ         ÛÛÛÛÛÛÛบ    ÛÛษÛÛป ÛÛบ    ÛÛบ  ÛÛบ      ณ
-echo                ณ      ÛÛบ   ÛÛบ    ÛÛษออÛÛป    ÛÛบ         ÛÛษออÛÛบ    ÛÛบศÛÛปÛÛบ    ÛÛบ  ÛÛบ      ณ
-echo                ณ      ศÛÛÛÛÛÛษผ    ÛÛบ  ÛÛบ    ÛÛÛÛÛÛÛป    ÛÛบ  ÛÛบ    ÛÛบ ศÛÛÛÛบ    ÛÛÛÛÛÛษผ      ณ
-echo                ณ       ศอออออผ     ศอผ  ศอผ    ศออออออผ    ศอผ  ศอผ    ศอผ  ศอออผ    ศอออออผ       ณ
-echo                ณ                                                                                   ณ
-echo                ศฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤผ
+     
+echo                                [38;2;128;0;128mษฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤป
+echo                                ณ             __  __     __                __                 ณ
+echo                                ณ            / / / /____/ /___ _____  ____/ /                 ณ
+echo                                ณ           / / / / ___/ / __ `/ __ \/ __  /                  ณ
+echo                                ณ          / /_/ / /  / / /_/ / / / / /_/ /                   ณ
+echo                                ณ          \____/_/  /_/\__,_/_/ /_/\__,_/                    ณ
+echo                                ณ                                                             ณ
+echo                                ศฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤผ                            
 echo.
 
 echo                                                     [38;2;255;255;0mversion v 0.1.0.0
@@ -31,12 +29,13 @@ echo        [38;2;0;0;255mศออออออออออออออออออออออออออออออออออออออออออออออออออออ
 echo.
 echo                                                         [38;2;255;255;0mOther
 echo        [38;2;0;191;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
-echo                 pc off                     for pc                                               develops
+echo                 [38;5;63mpc off                     [38;5;63mfor pc                                               [38;5;63mdevelops
 echo         [38;2;255;0;0m[shutdown] [reboot]     [38;2;0;191;255m[pc] [store] [soft] [basket]    [massege]    [game]       [38;2;255;255;0m[git] [code] [cmd]
 echo        [38;2;0;191;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 echo                                                                                                                 next 
-                                                                                                                                
-set /p input=.%BS%      [38;2;255;0;0m^>
+echo.
+                                                                                                          
+set /p input=[0m[91m{%username%}[0m [96m{%computername%}[0m %BS%[38;2;255;0;0m^>
 
 
 
@@ -110,7 +109,7 @@ if /I %input% EQU 11 start RustDesk.lnk
 
 if /I %input% EQU 12 start start_Folder.vbs
 
-if /I %input% EQU 13 start 
+
 
 
 
@@ -136,8 +135,9 @@ if /I %input% EQU next (
 
 	echo       [38;2;255;255;0mback                                   [38;2;255;255;0mversion v 0.1.0.0
 	echo    [38;2;0;0;255mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
-	echo     [38;2;255;255;0m[1] - AdministrativeTools   [2] -  MdSched                     [3] - startup       [4] - all program pc                  
-	echo     [38;2;255;255;0m[5] - Clear time file       [6] - Download all update Cpp      [7] - Update DriteX        
+	echo     [38;2;255;255;0m[21] - AdministrativeTools   [22] -  MdSched                     [23] - startup                         
+	echo     [38;2;255;255;0m[24] - all program pc        [25] - Clear time file              [26] - Download all update Cpp 
+	echo     [38;2;255;255;0m[27] - Update DriteX
 	echo    [38;2;0;0;255mศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 
 	
@@ -171,7 +171,7 @@ if /I %input% EQU next (
 
 	if /I %input% EQU 26 start VisualCppRedist_AIO_x86_x64.exe 
 
-	if /I %input% EQU 27 start .DXSETUP.exe 
+	if /I %input% EQU 27 start dxwebsetup.exe 
 
 	if /I %input% EQU 28 start 
 

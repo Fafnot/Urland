@@ -1,4 +1,4 @@
-<h1 align="center">Choose Program</h1>
+<h1 align="center">Urland</h1>
 
 <h4 align="center">
   <a href="https://discord.com/invite/SFcSqZatPa" target="_blank">Discord</a>
@@ -19,19 +19,18 @@
 
 ## :star2: Preview
 
-![Image](for_README_file/image/registor_window.png)
-![Image](for_README_file/image/registor_user_window.png)
-![Image](for_README_file/image/registor_admin_window.png)
 ![Image](for_README_file/image/main.png)
 ![Image](for_README_file/image/next.png)
+![Image](for_README-file/image/inputlag.png)
 
 ## :star2: What it is?
 
 - Через Ярлыки других программа моя может запускать их
 - Можно обновит DiretX и так же C++ всех годов
-- Прогрма так же может вам помоч отчистить мусор с компьютера
+- Прогрмма так же может вам помочь отчистить мусор с компьютера
 - Есть проложение boosterX для оптимизации системы
-- Был добавлин inputlag свойство для оптимизации системы
+- Был добавлин inputlag свойство для оптимизации системы 
+- Inputlag свойство это от Igromanoff
 
 ## :star2: Other
 
@@ -42,5 +41,6 @@
 
 ## :star2: on future
 
-- В будущем програму можно будет запускать на linux
+- В будущем программу можно будет запускать на linux
 - Буду улучшать вид и удобство проги
+- Возможно сделаю что бы можно было устанавливать приложение сразу через мою программу 

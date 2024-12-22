@@ -21,7 +21,7 @@
 
 ![Image](for_README_file/image/main.png)
 ![Image](for_README_file/image/next.png)
-![Image](for_README-file/image/inputlag.png)
+![Image](for_README_file/image/inputlag.png)
 
 ## :star2: What it is?
 

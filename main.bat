@@ -59,6 +59,8 @@ if /I %input% EQU code (
 )
 
 
+
+
 if /I %input% EQU git start Git.lnk
 
 if /I %input% EQU info_next start info_next.txt 
@@ -138,7 +140,7 @@ if /I %input% EQU next (
 	echo    [38;2;0;0;255m╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 	echo     [92m[1] - AdministrativeTools   [2] -  MdSched                     [3] - startup                         
 	echo     [92m[4] - all program pc        [5] - Clear time file              [6] - Download all update Cpp 
-	echo     [92m[7] - Update DriteX
+	echo     [92m[7] - Update DriteX         [8] - info system 
 	echo    [38;2;0;0;255m╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 	
@@ -157,7 +159,18 @@ if /I %input% EQU next (
 
 
 
-	if /I %input% EQU 1 start AdministrativeTools.lnk
+	if /I %input% EQU 1 (
+		
+		
+		cd new_function
+		start ComputerManagement.lnk
+		start AdministrativeTools.lnk
+	)
+	
+	if /I %input% EQU 8 (
+		cd new_function
+		start SystemInformation.lnk
+	)
 
 	if /I %input% EQU 2 start mdsched.lnk
 
@@ -168,6 +181,8 @@ if /I %input% EQU next (
 	if /I %input% EQU 5 (
 		start temp 
 		start %temp%
+		start DiskCleanup
+		start dfrgui
 	)
 
 	if /I %input% EQU 6 start VisualCppRedist_AIO_x86_x64.exe 

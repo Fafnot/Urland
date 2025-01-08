@@ -28,7 +28,7 @@ echo                                                     [33mversion v 0.1.2.0
 echo        [38;2;0;0;255m╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 echo          [38;5;63m[1]-[92mblender[92m         [38;5;63m[2]-[92mPyCharm[92m        [38;5;63m[3]-[92mVirtualBox[92m       [38;5;63m[4]-[92mPhotoshop[92m       [38;5;63m[5]-[92mVS_code[92m            
 echo          [38;5;63m[6]-[92mObsidian[92m        [38;5;63m[7]-[92mRadminVPN[92m      [38;5;63m[8]-[92mBoosterX[92m         [38;5;63m[9]-[92mKeePassXC[92m       [38;5;63m[10]-[92mSublimeText[92m     
-echo          [38;5;63m[11]-[92mRustDesk[92m       [38;5;63m[12]-[92msystem app[92m
+echo          [38;5;63m[11]-[92mRustDesk[92m       [38;5;63m[12]-[92msystem app[92m    [38;5;63m[13]-[92mInstall
 echo        [38;2;0;0;255m╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 echo.
 echo                                                         [38;2;255;255;0mOther
@@ -56,6 +56,13 @@ if /I %input% EQU message (
 if /I %input% EQU code (
 	start EnhancedKeyboard.exe
 	start VS_code.lnk
+)
+
+if /I %input% EQU Install (
+	start 7z_install.exe
+	start revosetup.exe
+	start SteamSetup.exe
+	start ChromeSetup.exe
 )
 
 
@@ -138,12 +145,14 @@ if /I %input% EQU next (
 
 	echo       [31mback                                   [33mversion v 0.1.2.0
 	echo    [38;2;0;0;255m╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-	echo     [92m[1] - AdministrativeTools   [2] -  MdSched                     [3] - startup                         
-	echo     [92m[4] - all program pc        [5] - Clear time file              [6] - Download all update Cpp 
-	echo     [92m[7] - Update DriteX         [8] - info system 
+	echo     [92m[1] - AdministrativeTools   [2] -  MdSched        [3] - startup                         ╔══════════════╗  
+    echo     [92m                                                                                            Shutdown
+	echo     [92m[4] - all program pc        [5] - Clear cache     [6] - Download all update Cpp           [4] [6] [8]
+	echo     [92m                                                                                            In hours  
+	echo     [92m[7] - Update DriteX         [8] - info system                                           ╚══════════════╝
 	echo    [38;2;0;0;255m╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-	
+	echo. 
 	set /p input=[0m[91m{%username%}[0m [96m{%computername%}[0m %BS%[38;2;255;0;0m ► 
 
 	
@@ -160,15 +169,11 @@ if /I %input% EQU next (
 
 
 	if /I %input% EQU 1 (
-		
-		
-		cd new_function
 		start ComputerManagement.lnk
 		start AdministrativeTools.lnk
 	)
 	
 	if /I %input% EQU 8 (
-		cd new_function
 		start SystemInformation.lnk
 	)
 
@@ -181,8 +186,13 @@ if /I %input% EQU next (
 	if /I %input% EQU 5 (
 		start temp 
 		start %temp%
+		start C:\Windows\SoftwareDistribution\Download
+		start C:\Windows\Prefetch
 		start DiskCleanup
 		start dfrgui
+		start SystemPropertiesProtection.lnk 
+		WSReset.exe
+		ipconfig /flushdns
 	)
 
 	if /I %input% EQU 6 start VisualCppRedist_AIO_x86_x64.exe 

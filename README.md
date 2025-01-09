@@ -31,7 +31,7 @@
 - Есть проложение boosterX для оптимизации системы
 - Был добавлин inputlag свойство для оптимизации системы 
 - Inputlag свойство это от Igromanoff
-- Есть Install каторый скачивает нужные приложение 7zip, chrome, revo_uninstaller, steam
+- Есть Install каторый скачивает нужные приложение 7zip, chrome, revo_uninstaller, steam, lightshot
 
 ## :star2: Other
 

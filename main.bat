@@ -58,13 +58,9 @@ if /I %input% EQU code (
 	start VS_code.lnk
 )
 
-if /I %input% EQU Install (
-	start 7z_install.exe
-	start revosetup.exe
-	start SteamSetup.exe
-	start ChromeSetup.exe
-	start setup-lightshot.exe
-)
+
+
+if /I %input% EQU Install start Install.bat
 
 
 
@@ -123,6 +119,11 @@ if /I %input% EQU 10 start SublimeText.lnk
 if /I %input% EQU 11 start RustDesk.lnk
 
 if /I %input% EQU 12 start start_Folder.vbs
+
+
+
+
+
 
 
 
@@ -212,6 +213,8 @@ if /I %input% EQU next (
 	cls
 	goto :next_window 
 )
+
+
 
 
 

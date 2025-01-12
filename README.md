@@ -8,7 +8,7 @@
   <a href="https://www.youtube.com/channel/UCeXL-Anplc8_IthxRIIHm7w" target="_blank">YouTube</a>
 </h4>
 
-<p align="center"> Програма создана для запуска программ и оптимизации системы <sub><b>by nonnsweety</b></sub>
+<p align="center"> У программы нету цели создано просто для удобство автора <sub><b>by nonnsweety</b></sub>
 </p>
 
 ## :star2: Download
@@ -22,21 +22,21 @@
 ![Image](for_README_file/image/main.png)
 ![Image](for_README_file/image/next.png)
 ![Image](for_README_file/image/inputlag.png)
+![Image](for_README_file/image/Install.png)
 
 ## :star2: What it is?
 
 - Через Ярлыки других программа моя может запускать их
-- Можно обновит DiretX и так же C++ всех годов
-- Прогрмма так же может вам помочь отчистить мусор с компьютера
-- Есть проложение boosterX для оптимизации системы
-- Был добавлин inputlag свойство для оптимизации системы 
-- Inputlag свойство это от Igromanoff
+- Можно обновить DiretX и так же C++ всех годов
+- Программа так же может вам помочь отчистить мусор и кэш windows с компьютера
+- Есть приложение boosterX для оптимизации системы
+- Был добавлин inputlag свойство для оптимизации системы  :star2: Inputlag свойство от Igromanoff
 - Есть Install каторый скачивает нужные приложение 7zip, chrome, revo_uninstaller, steam, lightshot
 
 ## :star2: Other
 
 - Когда вы перейдете в next то вам надо будет сперва написать cls
-- что бы у вас был задни вон не черный а фото то вам надо будет скачать terminal от microsoft в настройках можно будет поставит любое фото
+- что бы у вас был задни вон не черный, а фото то вам надо будет скачать terminal от microsoft в настройках можно будет поставит любое фото
 - Если вы не знаете как узнать GUID видеокарты > Диспетчер устройств > Найдите видеокарту правой кнопкой свойство > Детали нажмите по стрелке и найдите > класс GUID правой кнопкой по цифрам и копируем
 - Если будут какие то проблемы то можете написать на Gmail: age2380@gmail.com
 

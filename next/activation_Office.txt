@@ -1,0 +1,48 @@
+ru_RU
+
+У вас через 15 сек запустится команда не надо пережывать патом откроется командная строка надо подождать
+
+Шаги 
+
+1. На клавиатуре нажымаем 5 
+
+2. Типерь на клавиатуре нажымаем 2
+
+3. Ждем что бы было написано " Press any key to Go back... "
+
+4. Типерь все можем все закрыть и перезагрузиться
+
+
+--------
+если не чего не получилось то запустите powershell от имени администратора и ведите эту команду 
+
+irm https://massgrave.dev/get | iex
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+en_US 
+
+In 10 seconds the command will start, don't worry, then the command line will open, you need to wait
+
+Steps
+
+1. Press 5 on the keyboard
+
+2. Now press 2 on the keyboard
+
+3. Wait for it to say "Press any key to Go back..."
+
+4. Now we can close everything and reboot
+
+--------
+if nothing worked, then run powershell as administrator and enter this command
+
+irm https://massgrave.dev/get | iex
+
+
+
+

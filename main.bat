@@ -253,19 +253,17 @@ if /I %input% EQU Install (
 
 	if /I %input% EQU "exit" start exit 
 
-	if /I %input% EQU 1 start 7z_install.exe
+	if /I %input% EQU 1 start winget install 7zip.7zip --silent --accept-package-agreements --accept-source-agreements
 
-	if /I %input% EQU 2 start ChromeSetup.exe
+	if /I %input% EQU 2 start winget install Google.Chrome --silent --accept-package-agreements --accept-source-agreements
 
-	if /I %input% EQU 3 start SteamSetup.exe
+	if /I %input% EQU 3 start winget install Valve.Steam --silent --accept-package-agreements --accept-source-agreements
 
-	if /I %input% EQU 4 start revosetup.exe
+	if /I %input% EQU 4 start winget install RevoUninstaller.RevoUninstaller --silent --accept-package-agreements --accept-source-agreements
 
-	if /I %input% EQU 5 start setup-lightshot.exe
+	if /I %input% EQU 5 start swinget install ShareX.ShareX --silent --accept-package-agreements --accept-source-agreements
 
-	if /I %input% EQU 6 (
-		powershell Install-Module posh-git -Scope CurrentUser -Force
-	)
+	if /I %input% EQU 6 winget install Git.Git --silent --accept-package-agreements --accept-source-agreements
 
 	if /I %input% EQU 7 start MS_Office_2019.exe
 

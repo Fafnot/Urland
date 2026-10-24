@@ -1,0 +1,11 @@
+[33mversion 0.1.0.1   
+[95m
+[95m               (_)___  _____/ /_____ _/ / /                  
+[95m              / / __ \/ ___/ __/ __ `/ / /                   
+[95m             / / / / (__  ) /_/ /_/ / / /                    
+[95m            /_/_/ /_/____/\__/\__,_/_/_/                     
+  
+[35mMade By: [95mverloren
+  [95m<-- back 
+  [33m[1] - 7z [0m        [33m[2] - chrome [0m [33m[3] - steam [0m [33m[4] - revo_uninstaller[0m
+  [33m[5] - screenshot[0m [33m[6] - git [0m    [33m[7] - office[0m [33m[8] - package_install[0m

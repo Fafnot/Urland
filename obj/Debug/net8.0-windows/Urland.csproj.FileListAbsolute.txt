@@ -1,0 +1,15 @@
+G:\Git\urland\Urland\bin\Debug\net8.0-windows\Urland.exe
+G:\Git\urland\Urland\bin\Debug\net8.0-windows\Urland.deps.json
+G:\Git\urland\Urland\bin\Debug\net8.0-windows\Urland.runtimeconfig.json
+G:\Git\urland\Urland\bin\Debug\net8.0-windows\Urland.dll
+G:\Git\urland\Urland\bin\Debug\net8.0-windows\Urland.pdb
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.GeneratedMSBuildEditorConfig.editorconfig
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.AssemblyInfoInputs.cache
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.AssemblyInfo.cs
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.csproj.CoreCompileInputs.cache
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.sourcelink.json
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.dll
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\refint\Urland.dll
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.pdb
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\Urland.genruntimeconfig.cache
+G:\Git\urland\Urland\obj\Debug\net8.0-windows\ref\Urland.dll

@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="**\anime_art_ascii_*.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
   
 
 </Project>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Urland")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b913adccfb1a4df89fee01ac3c577faf59718e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5233b9c6ac182e8159de353508723e54b822cefa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Urland")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Urland")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

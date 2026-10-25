@@ -4,76 +4,23 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 
+
 public static class CustomShell
 {
     // ANSI-цвета (те же коды, что были в bat)
     const string Reset = "\e[0m", Green = "\e[92m", White = "\e[97m",
                  Red = "\e[91m", Cyan = "\e[96m", Magenta = "\e[35m";
-    // открывает оболочку в НОВОМ окне терминала
-    public static void OpenInNewWindow()
+    static void ClearScreen()
     {
-        string exe = Environment.ProcessPath!;
-        var cmd = new List<string> { exe };
-
-        // при "dotnet run" процесс это dotnet.exe, ему нужно передать путь к dll
-        if (Path.GetFileNameWithoutExtension(exe).Equals("dotnet", StringComparison.OrdinalIgnoreCase))
-            cmd.Add(Environment.GetCommandLineArgs()[0]);
-
-        cmd.Add("--shell");
-        string workDir = Directory.GetCurrentDirectory();
-
-        try
-        {
-            if (OperatingSystem.IsWindows())
-            {
-                // UseShellExecute = true: консольное приложение откроется в новом окне
-                var psi = new ProcessStartInfo(cmd[0])
-                {
-                    UseShellExecute = true,
-                    WorkingDirectory = workDir
-                };
-                foreach (var a in cmd.Skip(1)) psi.ArgumentList.Add(a);
-                Process.Start(psi);
-            }
-            else if (OperatingSystem.IsMacOS())
-            {
-                string line = string.Join(" ", cmd.Select(c => $"'{c}'"));
-                string script = $"tell application \"Terminal\" to do script \"cd '{workDir}'; {line.Replace("\"", "\\\"")}\"";
-                Process.Start("osascript", new[] { "-e", script });
-            }
-            else // Linux: пробуем популярные терминалы по очереди
-            {
-                var terminals = new (string name, string[] pre)[]
-                {
-                ("x-terminal-emulator", new[] { "-e" }),
-                ("gnome-terminal",      new[] { "--" }),
-                ("konsole",             new[] { "-e" }),
-                ("xfce4-terminal",      new[] { "-e" }),
-                ("xterm",               new[] { "-e" }),
-                };
-
-                foreach (var (name, pre) in terminals)
-                {
-                    try
-                    {
-                        var psi = new ProcessStartInfo(name) { WorkingDirectory = workDir };
-                        foreach (var p in pre) psi.ArgumentList.Add(p);
-                        foreach (var c in cmd) psi.ArgumentList.Add(c);
-                        Process.Start(psi);
-                        return;                 // получилось
-                    }
-                    catch { /* такого терминала нет, пробуем следующий */ }
-                }
-                Console.WriteLine("Не найден ни один терминал (xterm, gnome-terminal, konsole...)");
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"{Red}Не удалось открыть терминал: {ex.Message}{Reset}");
-        }
+        Console.Write("\u001b[2J\u001b[3J\u001b[H");
     }
+
     public static void Run(string artFolder = "")
     {
+        string oldTitle = "";
+        ClearScreen();
+        try { if (OperatingSystem.IsWindows()) oldTitle = Console.Title; } catch { }
+
         Console.OutputEncoding = Encoding.UTF8;          // chcp 65001
         Console.Title = "Verloren |Custom CMD";
         EnableAnsiOnWindows();
@@ -92,9 +39,16 @@ public static class CustomShell
             Console.WriteLine();
             if (input.Length == 0) continue;
 
+            if (input.Equals("exit", StringComparison.OrdinalIgnoreCase))
+                break;                                   // возврат в программу
+
             if (!HandleBuiltin(input))
                 Exec(input);
         }
+
+        // вернуть заголовок окна
+        if (oldTitle.Length > 0) Console.Title = oldTitle;
+        Console.WriteLine();
     }
 
     // случайный ascii-арт из anime_art_ascii_*.txt
@@ -116,8 +70,6 @@ public static class CustomShell
     static bool HandleBuiltin(string input)
     {
         string lower = input.ToLowerInvariant();
-
-        if (lower == "exit") Environment.Exit(0);
 
         if (lower == "clear" || lower == "cls") { Console.Clear(); return true; }
 
@@ -188,3 +140,5 @@ public static class CustomShell
             SetConsoleMode(h, mode | 0x0004);   // ENABLE_VIRTUAL_TERMINAL_PROCESSING
     }
 }
+
+

@@ -10,9 +10,9 @@ Console.Title = "Urland";
 var finish_program = false;
 
 // Баннеры для программы 
-string urland_main_banner = File.ReadAllText("ascii_art_txt/Urland.txt");
-string next_banner = File.ReadAllText("ascii_art_txt/next.txt");
-string install_banner = File.ReadAllText("ascii_art_txt/install.txt");
+string urland_main_banner = File.ReadAllText("ascii_art_banner/Urland.txt");
+string next_banner = File.ReadAllText("ascii_art_banner/next.txt");
+string install_banner = File.ReadAllText("ascii_art_banner/install.txt");
 
 
 if (args.Contains("--shell"))
@@ -41,7 +41,7 @@ while (!finish_program)
             Process.Start(new ProcessStartInfo(Path.GetFullPath("main/soft_index.html")) { UseShellExecute = true });
             break;
         case "cmd":
-            CustomShell.OpenInNewWindow();
+            CustomShell.Run();
             break;
         case "basket":
             Process.Start(new ProcessStartInfo(Path.GetFullPath("main/basket.lnk")) { UseShellExecute = true });

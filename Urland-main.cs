@@ -46,6 +46,10 @@ while (!finish_program)
         case "basket":
             Process.Start(new ProcessStartInfo(Path.GetFullPath("main/basket.lnk")) { UseShellExecute = true });
             break;
+        
+        case "inputlag":
+            if (OperatingSystem.IsWindows()) InputLagTweaker.Run();
+            break;
         case "ping":
             Ping.InNewWindow();
             Ping.InNewWindow("google.com");
